@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAEAEA;
+}
+
+div {
+    text-align: center;
+}
+
+.note {
+    font-weight: bold;
+}
+
+.cleaner {
+    border-style: solid;
+    font-size: 15px;
+    width: 15em;
+    padding: 2em;
+    border-color: #000000;
+    color: #000000;
+    background-color: #00CCED;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cleaner:hover {
+    color: #F8F8FF;
+    background-color: #FF7200;
+}
