@@ -2,7 +2,7 @@ import { string, cl, headers } from "https://rawgit.com/stevedoesitall/ditkojs/m
 
 document.addEventListener("click", function (event) {
     if (event.target.classList.contains("cleaner")) {
-        const feature = this.id;
+        const feature = event.target.id;
         fetch("/server", {
             method: "post",
             headers: headers,

@@ -1,5 +1,9 @@
+div {
+    text-align: center;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #000732;
     color: #FFFFFF;
 }
@@ -9,11 +13,12 @@ button {
     border-color: #FFFFFF;
     font-size: 1em;
     font-weight: bold;
-    width: 8em;
+    width: 10em;
     padding: 2em;
     color: #FFFFFF;
     background-color: #00CCED;
     cursor: pointer;
+    margin-bottom: 2em;
     margin-left: .5em;
     display: block;
     white-space: normal;
@@ -23,10 +28,6 @@ button:hover {
     border-color: #00CCED;
     color: #00CCED;
     background-color: #FFFFFF;
-}
-
-div {
-    text-align: center;
 }
 
 .note {

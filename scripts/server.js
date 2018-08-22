@@ -1,7 +1,7 @@
 console.log("Starting cleaner...");
 
 //Create app using express.js
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const express = require("express");
 const body_parser = require("body-parser");
 const path = require("path");
