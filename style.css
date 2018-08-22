@@ -5,9 +5,24 @@ body {
 }
 
 button {
-    padding-bottom: 2em;
+    border-style: solid;
+    border-color: #FFFFFF;
+    font-size: 1em;
+    font-weight: bold;
+    width: 8em;
+    padding: 2em;
+    color: #FFFFFF;
+    background-color: #00CCED;
+    cursor: pointer;
+    margin-left: .5em;
     display: block;
     white-space: normal;
+}
+
+button:hover {
+    border-color: #00CCED;
+    color: #00CCED;
+    background-color: #FFFFFF;
 }
 
 div {
@@ -16,21 +31,4 @@ div {
 
 .note {
     font-weight: bold;
-}
-
-.cleaner {
-    border-style: solid;
-    font-size: 15px;
-    width: 15em;
-    padding: 2em;
-    border-color: #000000;
-    color: #000000;
-    background-color: #00CCED;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.cleaner:hover {
-    color: #F8F8FF;
-    background-color: #FF7200;
 }

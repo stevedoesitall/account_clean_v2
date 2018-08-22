@@ -37,5 +37,6 @@ app.post("/server", function(req, res) {
     }
     else {
         console.log("Something went wrong.");
+        res.send("Error");
     }
 });
