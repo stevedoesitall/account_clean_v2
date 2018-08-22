@@ -3,6 +3,7 @@ import { string, cl, headers } from "https://rawgit.com/stevedoesitall/ditkojs/m
 document.addEventListener("click", function (event) {
     if (event.target.classList.contains("cleaner")) {
         const feature = event.target.id;
+        alert(`Running cleaner on ${feature}.`);
         fetch("/server", {
             method: "post",
             headers: headers,
@@ -15,7 +16,7 @@ document.addEventListener("click", function (event) {
                 return;
             }
             else {
-                alert(`Running cleaner on ${feature}.`);
+                cl(`Running cleaner on ${feature}.`);
             }
         })
     }
