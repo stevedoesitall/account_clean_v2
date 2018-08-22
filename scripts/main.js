@@ -15,7 +15,7 @@ document.addEventListener("click", function (event) {
                 return;
             }
             else {
-                alert("Refreshing feed.");
+                alert(`Running cleaner on ${feature}.`);
             }
         })
     }
