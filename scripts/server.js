@@ -17,7 +17,7 @@ app.listen(port, () => console.log(`API Test Tool started on port ${port}.`));
 
 //Post to the appropriate file depending on the req.body.id value
 app.post("/server", function(req, res) {
-    const feature = JSON.parse(req.body.id);
+    const feature = req.body.id;
     console.log(req.body);
     if (feature == "blasts") {
         const api_call = require("./cleaner_files/blasts.js");
