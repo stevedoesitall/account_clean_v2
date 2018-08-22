@@ -3,6 +3,10 @@ body {
     background-color: #EAEAEA;
 }
 
+button {
+    padding-bottom: 2em;
+}
+
 div {
     text-align: center;
 }

@@ -16,7 +16,7 @@ app.use(body_parser.json());
 app.listen(port, () => console.log(`API Test Tool started on port ${port}.`));
 
 //Post to the appropriate file depending on the req.body.id value
-app.post("/email", function(req, res) {
+app.post("/server", function(req, res) {
     const feature = req.body.id;
     console.log(req.body);
     if (feature == "blasts") {
