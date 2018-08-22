@@ -5,6 +5,7 @@ body {
 
 button {
     padding-bottom: 2em;
+    display: block;
 }
 
 div {
